@@ -1,0 +1,210 @@
+
+==============================================================================
+lazy:                                                               2 ⚠️  1 ❌
+
+lazy.nvim ~
+- {lazy.nvim} version `11.17.5`
+- ✅ OK {git} `version 2.54.0`
+- ✅ OK no existing packages found by other package managers
+- ✅ OK packer_compiled.lua not found
+
+luarocks ~
+- checking `hererocks` installation
+- ✅ OK no plugins require `luarocks`, so you can ignore any warnings below
+- ✅ OK {python3} `Python 3.12.13`
+- ❌ ERROR {/home/kalpesh/.local/share/nvim/lazy-rocks/hererocks/bin/luarocks} not installed
+- ⚠️ WARNING {/home/kalpesh/.local/share/nvim/lazy-rocks/hererocks/bin/lua} version `5.1` not installed
+- ⚠️ WARNING Lazy won't be able to install plugins that require `luarocks`.
+  Here's what you can do:
+   - fix your `luarocks` installation
+   - disable *hererocks* with `opts.rocks.hererocks = false`
+   - disable `luarocks` support completely with `opts.rocks.enabled = false`
+
+==============================================================================
+nvim-treesitter:                                                            ✅
+
+Requirements ~
+- ✅ OK Neovim was compiled with tree-sitter runtime ABI version 15 (required >=13).
+- ✅ OK tree-sitter-cli 0.26.9 (/usr/local/bin/tree-sitter)
+- ✅ OK tar 1.35.0 (/usr/bin/tar)
+- ✅ OK curl 8.12.1 (/usr/bin/curl)
+  curl 8.12.1 (x86_64-koji-linux-gnu) libcurl/8.12.1 OpenSSL/3.5.5 zlib/1.3.1.zlib-ng brotli/1.1.0 libidn2/2.3.7 libpsl/0.21.5 libssh/0.12.0/openssl/zlib nghttp2/1.68.0 OpenLDAP/2.6.10
+  Release-Date: 2025-02-13
+  Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns ldap ldaps mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp ws wss
+  Features: alt-svc AsynchDNS brotli GSS-API HSTS HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM PSL SPNEGO SSL threadsafe TLS-SRP UnixSockets
+
+OS Info ~
+- sysname: Linux
+- version: #1 SMP PREEMPT_DYNAMIC Tue Jun  2 11:46:21 EDT 2026
+- release: 6.12.0-211.20.1.el10_2.x86_64
+- machine: x86_64
+
+Install directory for parsers and queries ~
+- /home/kalpesh/.local/share/nvim/site
+- ✅ OK is writable.
+- ✅ OK is in runtimepath.
+
+Installed languages     H L F I J ~
+
+  Legend: [H]ighlights, [L]ocals, [F]olds, [I]ndents, In[J]ections ~
+
+==============================================================================
+telescope:                                                                1 ⚠️
+
+Checking for required plugins ~
+- ✅ OK plenary installed.
+
+Checking external dependencies ~
+- ✅ OK rg: found ripgrep 14.1.1
+- ⚠️ WARNING fd: not found. Install [sharkdp/fd](https://github.com/sharkdp/fd) for extended capabilities
+
+===== Installed extensions ===== ~
+
+==============================================================================
+vim.deprecated:                                                             ✅
+
+- ✅ OK No deprecated functions detected
+
+==============================================================================
+vim.health:                                                                 ✅
+
+System Info ~
+- ✅ OK Up to date (0.12.2)
+- Nvim version: `v0.12.2` 
+- Operating system: Linux 6.12.0-211.20.1.el10_2.x86_64
+- Terminal: ghostty 1.3.1
+- $TERM: xterm-ghostty
+
+Configuration ~
+- ✅ OK no issues found
+
+Runtime ~
+- ✅ OK $VIMRUNTIME: /usr/local/nvim-linux-x86_64/share/nvim/runtime
+
+Performance ~
+- ✅ OK Build type: Release
+
+Remote Plugins ~
+- ✅ OK Up to date
+
+Terminal ~
+- key_backspace (kbs) terminfo entry: `key_backspace=\177`
+- key_dc (kdch1) terminfo entry: `key_dc=\E[3~`
+- $TERM_PROGRAM="ghostty"
+- $COLORTERM="truecolor"
+
+External Tools ~
+- ✅ OK ripgrep 14.1.1 (/usr/bin/rg)
+- ✅ OK vim.ui.open: handler found (xdg-open)
+- ✅ OK git version 2.54.0 (/usr/local/bin/git)
+- ✅ OK curl 8.12.1 (/usr/bin/curl)
+  curl 8.12.1 (x86_64-koji-linux-gnu) libcurl/8.12.1 OpenSSL/3.5.5 zlib/1.3.1.zlib-ng brotli/1.1.0 libidn2/2.3.7 libpsl/0.21.5 libssh/0.12.0/openssl/zlib nghttp2/1.68.0 OpenLDAP/2.6.10
+  Release-Date: 2025-02-13
+  Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns ldap ldaps mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp ws wss
+  Features: alt-svc AsynchDNS brotli GSS-API HSTS HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM PSL SPNEGO SSL threadsafe TLS-SRP UnixSockets
+
+==============================================================================
+vim.lsp:                                                                    ✅
+
+- LSP log level : WARN
+- Log path: /home/kalpesh/.local/state/nvim/lsp.log
+- Log size: 12 KB
+
+vim.lsp: Active Features ~
+
+vim.lsp: Active Clients ~
+- No active clients
+
+vim.lsp: Enabled Configurations ~
+
+vim.lsp: File Watcher ~
+- file watching "(workspace/didChangeWatchedFiles)" disabled on all clients
+
+vim.lsp: Position Encodings ~
+- No active clients
+
+==============================================================================
+vim.pack:                                                                   ✅
+
+vim.pack: basics ~
+- ✅ OK `vim.pack` is not used
+
+==============================================================================
+vim.provider:                                                             5 ⚠️
+
+Clipboard (optional) ~
+- ✅ OK Clipboard tool found: wl-copy
+
+Node.js provider (optional) ~
+- Disabled (loaded_node_provider=0).
+
+Perl provider (optional) ~
+- ⚠️ WARNING "Neovim::Ext" cpan module is not installed
+  - ADVICE:
+    - See :help |provider-perl| for more information.
+    - You can disable this provider (and warning) by adding `let g:loaded_perl_provider = 0` to your init.vim
+- ⚠️ WARNING No usable perl executable found
+
+Python 3 provider (optional) ~
+- ⚠️ WARNING No Python executable found that can `import neovim`. Using the first available executable for diagnostics.
+- ⚠️ WARNING Could not load Python :
+  /usr/bin/python3 does not have the "neovim" module.
+  python3.14 not found in search path or not executable.
+  python3.13 not found in search path or not executable.
+  /usr/bin/python3.12 does not have the "neovim" module.
+  python3.11 not found in search path or not executable.
+  python3.10 not found in search path or not executable.
+  python3.9 not found in search path or not executable.
+  /usr/bin/python does not have the "neovim" module.
+  - ADVICE:
+    - See :help |provider-python| for more information.
+    - You can disable this provider (and warning) by adding `let g:loaded_python3_provider = 0` to your init.vim
+- Executable: Not found
+
+Python virtualenv ~
+- ✅ OK no $VIRTUAL_ENV
+
+Ruby provider (optional) ~
+- ⚠️ WARNING `ruby` and `gem` must be in $PATH.
+  - ADVICE:
+    - Install Ruby and verify that `ruby` and `gem` commands work.
+
+==============================================================================
+vim.treesitter:                                                             ✅
+
+Treesitter features ~
+- Treesitter ABI support: min 13, max 15
+- WASM parser support: false
+
+Treesitter parsers ~
+- ✅ OK Parser: c                         ABI: 15, path: /usr/local/nvim-linux-x86_64/lib/nvim/parser/c.so
+- ✅ OK Parser: lua                       ABI: 15, path: /usr/local/nvim-linux-x86_64/lib/nvim/parser/lua.so
+- ✅ OK Parser: markdown                  ABI: 15, path: /usr/local/nvim-linux-x86_64/lib/nvim/parser/markdown.so
+- ✅ OK Parser: markdown_inline           ABI: 15, path: /usr/local/nvim-linux-x86_64/lib/nvim/parser/markdown_inline.so
+- ✅ OK Parser: query                     ABI: 15, path: /usr/local/nvim-linux-x86_64/lib/nvim/parser/query.so
+- ✅ OK Parser: vim                       ABI: 15, path: /usr/local/nvim-linux-x86_64/lib/nvim/parser/vim.so
+- ✅ OK Parser: vimdoc                    ABI: 15, path: /usr/local/nvim-linux-x86_64/lib/nvim/parser/vimdoc.so
+
+Treesitter queries ~
+- ✅ OK c               folds           /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/c
+- ✅ OK c               highlights      /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/c
+- ✅ OK c               injections      /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/c
+- ✅ OK javascript      highlights      /usr/local/share/nvim/lazy/vscode.nvim/after/queries/javascript
+- ✅ OK jsx             highlights      /usr/local/share/nvim/lazy/vscode.nvim/after/queries/jsx
+- ✅ OK lua             folds           /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/lua
+- ✅ OK lua             highlights      /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/lua
+- ✅ OK lua             injections      /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/lua
+- ✅ OK markdown        folds           /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/markdown
+- ✅ OK markdown        highlights      /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/markdown
+- ✅ OK markdown        injections      /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/markdown
+- ✅ OK markdown_inline highlights      /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/markdown_inline
+- ✅ OK markdown_inline injections      /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/markdown_inline
+- ✅ OK query           folds           /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/query
+- ✅ OK query           highlights      /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/query
+- ✅ OK typescript      highlights      /usr/local/share/nvim/lazy/vscode.nvim/after/queries/typescript
+- ✅ OK vim             folds           /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/vim
+- ✅ OK vim             highlights      /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/vim
+- ✅ OK vim             injections      /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/vim
+- ✅ OK vimdoc          highlights      /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/vimdoc
+- ✅ OK vimdoc          injections      /usr/local/nvim-linux-x86_64/share/nvim/runtime/queries/vimdoc
+
